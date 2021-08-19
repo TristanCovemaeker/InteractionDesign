@@ -1,0 +1,133 @@
+:root {
+    --page-background: #92c7d3;
+    --box-background: #dfe7ef;
+    --button-background: #fcb641;
+    --button-hover-background: #f0c986;
+}
+
+body {
+    background: var(--page-background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background: var(--box-background);
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+
+.grid-box {
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    width: 50%;
+    padding: 8px;
+    background: var(--box-background);
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.c-box-image {
+    width: 40%;
+    margin: 8px 0px 8px 0px;
+}
+
+.c-box-day {
+    font-size: 18px;
+}
+
+.grid-button {
+    display: grid;
+    justify-self: center;
+    margin-bottom: 16px;
+    color: black;
+    background: var(--button-background);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grid-button:hover {
+    background: var(--button-hover-background);
+}
+
+.grid-button:active {
+    background: var(--button-hover-background);
+}
+
+.grid-a {
+    display: grid;
+    justify-self: center;
+    margin-bottom: 16px;
+    text-decoration: none;
+    background: var(--button-background);
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grid-a:hover {
+    background: var(--button-hover-background);
+}
+
+.grid-a:active {
+    background: var(--button-hover-background);
+}
+
+.form-container {
+    display: grid;
+    justify-content: center;
+}
+
+.form-box {
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    width: 70%;
+    padding: 8px;
+    background: var(--box-background);
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.form-item {
+
+}
+
+.form-title {
+    text-decoration: none;
+    display: grid;
+    justify-self: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background: var(--box-background);
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    font-size: 32px;
+}
+
+.form-button {
+    display: grid;
+    justify-self: center;
+    margin-bottom: 16px;
+    color: black;
+    background: var(--button-background);
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-button:hover {
+    background: var(--button-hover-background);
+}
+
+.form-button:active {
+    background: var(--button-hover-background);
+}
